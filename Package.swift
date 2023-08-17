@@ -9,14 +9,12 @@ let package = Package(
     products: [
         .library(
             name: "M5MultitouchSupport",
-            targets: ["M5MultitouchSupport"]),
+            targets: ["M5MultitouchSupport"])
     ],
-    dependencies: [],
     targets: [
         .target(
             name: "M5MultitouchSupport",
-            dependencies: [],
-            path: "M5MultitouchSupport"
+            dependencies: []
         )
     ]
 )
